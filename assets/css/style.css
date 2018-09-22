@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+}
+header {
+    height: 100%;
+}
+#introduction{
+    height: 100%;
+}
+#introduction>h1 {
+    background:transparent;
+    color:#004288;
+    text-shadow: 2px 0px 10px #eee;
+}
+
+#logosm {
+    height: 6rem;
+    background:linear-gradient(to top, #eee, #fff, transparent);
+    box-shadow: 2px 0px 10px #000;
+    transition: all .3s ease-in-out;
+}
+#logosm:hover {
+    height: 6rem;
+    background:linear-gradient(to top, #eee, #fff, transparent);
+    box-shadow: 2px 0px 10px #eee;
+}
+.nav a:link {
+    background:#004288;
+    color:#eee;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    transition: all .3s ease-in-out;
+}
+.nav a:visited {
+    background:#004288;
+    color:#eee;
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+.nav a:hover {
+    background:#eee;
+    color:#004288;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+.topEdge {
+    height: 2rem;
+    background: url('../images/topEdge.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bottomEdge {
+    height: 2rem;
+    background: url('../images/bottomEdge.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.about div {
+    background: #004288;
+}
+.sectionHeader {
+    color:#00254c;
+    font-weight: 100;
+}
+p {
+    background: #004288;
+    color:#eee;
+    letter-spacing: .1rem;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;
+}
+
+#services h5 {
+    color: #fff;
+}
+#solutions {
+    color:#e7e7e7;
+    transform: rotate(-90deg);
+    font-size: 10rem;
+}
+.solutions p {
+    background: transparent;
+    color:#777;
+    letter-spacing: .1rem;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+}
+/*Hexagon*/
+.hexagon {
+    position: relative;
+    width: 200px; 
+    height: 115.47px;
+    background-color: #004288;
+    margin: 57.74px 0;
+    cursor: pointer;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 57.74px solid #004288;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 57.74px solid #004288;
+  }
+

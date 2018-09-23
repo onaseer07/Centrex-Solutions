@@ -7,6 +7,12 @@ h1,h2,h3,h4,h5,h6{
 header {
     height: 100%;
 }
+.bg-blue {
+    background: #004288;
+}
+.bg_drkBlue {
+    background: #00254c;
+}
 #introduction{
     height: 100%;
 }
@@ -94,7 +100,7 @@ p {
     position: relative;
     width: 200px; 
     height: 115.47px;
-    background-color: #004288;
+    background-color: #f8f9fa;
     margin: 57.74px 0;
     cursor: pointer;
   }
@@ -110,12 +116,102 @@ p {
   
   .hexagon:before {
     bottom: 100%;
-    border-bottom: 57.74px solid #004288;
+    border-bottom: 57.74px solid #f8f9fa;
   }
   
   .hexagon:after {
     top: 100%;
     width: 0;
-    border-top: 57.74px solid #004288;
+    border-top: 57.74px solid #f8f9fa;
   }
+  /*Form*/
+  .form-control {
+    background: transparent;
+    color: #004288;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    border-color:#004288;
+    border-top:0;
+    border-left:0;
+    border-right:5rem;
+    border-radius: 0;
+    transition: all .3s ease-in-out;
+}
+.form-control:focus {
+    background: transparent;
+    color: #004288;
+    font-family: 'Open Sans', sans-serif;
+    border-color:#004288;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-radius: 0;
+    outline:0px !important;
+    outline-color: #004288 !important;
+}
+label {
+    font-size:32px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 500;
+    color: #00245c;
+}
+textarea {
+    height: 7rem;
+}
+#submit {
+    background:#004288;
+    color:#eee;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    border:0;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+#submit:hover {
+    background:#f8f9fa;
+    color:#004288;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-weight: bolder;
+    border:0;
+
+}
+address {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color:#f8f9fa;
+}
+address a:link{
+    color:#004288;
+    transition: all .3s ease-in-out;
+}
+address a:link:hover{
+    color:#004288;
+    transition: all .3s ease-in-out;
+    text-shadow: 2px 0px 10px #eee;
+}
+.credits {
+    background: #00245c;
+    color:#eee;
+    font-family: 'Open Sans', sans-serif;
+}
+textarea[type="text"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {   
+  border-color: #004288;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #004288;
+  outline: 0 none;
+}
 

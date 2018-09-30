@@ -1,0 +1,306 @@
+body, html {
+    height: 100%;
+    overflow-x:hidden; 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+}
+header {
+    height: 75%;
+}
+.bg-blue {
+    background: #003754;
+}
+.bg_drkBlue {
+    background: #000609;
+}
+#introduction{
+    height: 100%;
+}
+#introduction>h1 {
+    background:transparent;
+    color:#003754;
+    text-shadow: 2px 0px 10px #eee;
+}
+
+#logosm {
+    height: 6rem;
+    background:linear-gradient(to top, #eee, #fff, transparent);
+    box-shadow: 2px 0px 10px #000;
+    transition: all .3s ease-in-out;
+}
+#logosm:hover {
+    height: 6rem;
+    background:linear-gradient(to top, #eee, #fff, transparent);
+    box-shadow: 2px 0px 10px #eee;
+}
+.nav a:link {
+    background:#003754;
+    color:#eee;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    transition: all .3s ease-in-out;
+}
+.nav a:visited {
+    background:#003754;
+    color:#eee;
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+.nav a:hover {
+    background:#eee;
+    color:#003754;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+.topEdge {
+    height: 2rem;
+    background: url('../images/topEdge.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bottomEdge {
+    height: 2rem;
+    background: url('../images/bottomEdge.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.about div {
+    background: #003754;
+}
+#about .sectionHeader {
+    color:#f8f9fa;
+    font-weight: 100;
+}
+.sectionHeader {
+    color:#000609;
+    font-weight: 100;
+}
+p {
+    background: #003754;
+    color:#eee;
+    letter-spacing: .1rem;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;
+}
+
+#services h5 {
+    color: #fff;
+}
+#solutions {
+    color:#003754;
+    /* transform: rotate(-90deg); */
+    margin-bottom:5rem;
+    margin-top:5rem;
+}
+.solutions p {
+    background: transparent;
+    color:#777;
+    letter-spacing: .1rem;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+}
+/*Hexagon*/
+.hexagon {
+    position: relative;
+    width: 200px; 
+    height: 115.47px;
+    background-color: #f8f9fa !important;
+    margin: 57.74px 0;
+    cursor: pointer;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 57.74px solid #f8f9fa;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 57.74px solid #f8f9fa;
+  }
+  /*Form*/
+  .form-control {
+    background: transparent;
+    color: #003754;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    border-color:#003754;
+    border-top:0;
+    border-left:0;
+    border-right:5rem;
+    border-radius: 0;
+    transition: all .3s ease-in-out;
+}
+.form-control:focus {
+    background: transparent;
+    color: #003754;
+    font-family: 'Open Sans', sans-serif;
+    border-color:#003754;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-radius: 0;
+    outline:0px !important;
+    outline-color: #003754 !important;
+}
+label {
+    font-size:32px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 500;
+    color: #003754;
+}
+textarea {
+    height: 7rem;
+}
+#submit {
+    background:#003754;
+    color:#eee;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    border:0;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+#submit:hover {
+    background:#f8f9fa;
+    color:#003754;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-weight: bolder;
+    border:0;
+
+}
+address {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color:#f8f9fa;
+}
+address a:link{
+    color:#003754;
+    transition: all .3s ease-in-out;
+}
+address a:link:hover{
+    color:#003754;
+    transition: all .3s ease-in-out;
+    text-shadow: 2px 0px 10px #eee;
+}
+.credits {
+    background: #003754;
+    color:#eee;
+    font-family: 'Open Sans', sans-serif;
+}
+textarea[type="text"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {   
+  border-color: #003754;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #003754;
+  outline: 0 none;
+}
+
+
+/* Tablet Viewport */
+@media (max-width: 768px) {
+    .display-1 {
+       font-size:4rem; 
+    }
+    .display-2 {
+       font-size:3.5rem; 
+    }
+    .display-3 {
+       font-size:3.5rem; 
+    }
+    #logosm {
+        height: 4rem;
+        background:linear-gradient(to top, #eee, #fff, transparent);
+        box-shadow: 2px 0px 10px #000;
+        transition: all .3s ease-in-out;
+    }
+    #logosm:hover {
+        height: 4rem;
+        background:linear-gradient(to top, #eee, #fff, transparent);
+        box-shadow: 2px 0px 10px #eee;
+    }
+    .navbar-light .navbar-toggler{
+        color: #f8f9fa !important;
+        background: #003754 !important;
+        border-color:transparent !important;
+        border-radius:0 !important;
+        margin-right:1rem;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: none !important;
+        width:auto !important;
+        height:auto !important;
+        border-radius: 0% !important;
+    }
+
+}
+@media (max-width: 576px) {
+    .navbar-light .navbar-toggler{
+        color: #f8f9fa !important;
+        background: #003754 !important;
+        border:transparent !important;
+        margin-right:1rem;
+    }
+    #solutions {
+        color:#003754;
+        /* transform: rotate(-90deg); */
+        margin-bottom:5rem;
+        margin-top:3rem;
+    }
+    #hex h5 {
+        font-size: 1rem;
+        text-align: center !important;
+    }
+    .hexagon {
+        position: relative;
+        width: 100px; 
+        height: 57.74px;
+        background-color: #f8f9fa;
+        margin: 28.87px 0;
+      }
+      
+      .hexagon:before,
+      .hexagon:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+      }
+      
+      .hexagon:before {
+        bottom: 100%;
+        border-bottom: 28.87px solid #f8f9fa;
+      }
+      
+      .hexagon:after {
+        top: 100%;
+        width: 0;
+        border-top: 28.87px solid #f8f9fa;
+      }
+}
